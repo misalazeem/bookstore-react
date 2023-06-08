@@ -150,11 +150,11 @@
   width: 20%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .section3 p {
   color: #d3d3d3;
+  margin-top: 0;
 }
 
 .section3 h3 {
