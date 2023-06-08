@@ -167,7 +167,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add features**
+- Adding Books
+- Updating Books
+- Deleting Books
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
