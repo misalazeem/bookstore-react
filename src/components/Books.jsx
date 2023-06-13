@@ -30,7 +30,7 @@ function Books({
             <div className="progress-bar">
               <CircularProgressbar value="75" text="75%" />
             </div>
-            <div>
+            <div className="progress-text">
               <h2>
                 75
                 %
@@ -38,6 +38,7 @@ function Books({
               <p>Completed</p>
             </div>
           </div>
+          <div className="Line-2" />
           <div className="section3">
             <p>CURRENT CHAPTER</p>
             <h3>Chapter 17</h3>
