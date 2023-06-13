@@ -11,16 +11,18 @@ function NavBar() {
   };
   return (
     <div className="navbar">
-      <h1>BookStore CMS</h1>
-      <div className="navbar-menu">
-        <ul>
-          <li>
-            <Link to="/" className="links-desktop">Home</Link>
-          </li>
-          <li>
-            <Link to="/categories" className="links-desktop">Categories</Link>
-          </li>
-        </ul>
+      <div className="left">
+        <h1>BookStore CMS</h1>
+        <div className="navbar-menu">
+          <ul>
+            <li>
+              <Link to="/" className="links-desktop">Home</Link>
+            </li>
+            <li>
+              <Link to="/categories" className="links-desktop">Categories</Link>
+            </li>
+          </ul>
+        </div>
       </div>
       <FontAwesomeIcon onClick={toggleMenu} icon={faBars} className="mobile-hamburger" />
       {isOpen && (
