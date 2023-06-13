@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addbook } from '../redux/books/booksSlice';
+import { addbook, postBook } from '../redux/books/booksSlice';
 
 function AddBook() {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (title !== '' || author !== '') {
       const bookobject = {
@@ -14,6 +14,7 @@ function AddBook() {
         author,
       };
       dispatch(addbook(bookobject));
+      await dispatch(postBook(bookobject));
       setTitle('');
       setAuthor('');
     }
