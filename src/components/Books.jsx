@@ -18,12 +18,13 @@ function Books({
       <div className="books-container">
         <div className="book-item">
           <div className="section1">
+            <h4>Action</h4>
             <h2>{title}</h2>
             <p>{author}</p>
             <div className="book-button-section">
-              <button type="button">Comments</button>
+              <button className="btn-no-left" type="button">Comments</button>
               <button onClick={handleDelete} type="button">Remove</button>
-              <button type="button">Edit</button>
+              <button className="btn-no-divider" type="button">Edit</button>
             </div>
           </div>
           <div className="section2">
