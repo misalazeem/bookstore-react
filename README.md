@@ -139,7 +139,7 @@ Example command:
 
 ### Deployment
 
-- <a href="https://app.netlify.com/sites/prismatic-druid-21b59f/overview">Click here for live Deployment</a>
+- <a href="https://dev--prismatic-druid-21b59f.netlify.app/">Click here for live Deployment</a>
 
 <!--
 Example:
